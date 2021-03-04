@@ -40,3 +40,27 @@ print(['fizz' if i%3==0 else i for i in range(1,100+1)])
 
 <!-- fizzbuzz with list comprehension (range 1 to 300) -->
 
+
+## Numguess
+
+- TODO: trial-3
+
+- version: v1.1
+
+- commands
+
+1. git checkout develop
+
+2. git flow feature start ng-trial
+3. Add feature: trial
+4. git flow feature finish ng-trial
+
+5. git flow release start v1.1
+6. git flow release finish v1.1
+<!-- after 3 commit -->
+
+7. push to your develop, main, tags
+
+
+
+
