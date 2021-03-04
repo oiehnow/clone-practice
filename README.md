@@ -23,3 +23,20 @@ if i is times of 3: print 'fizz'
 if i is times of 5: print 'buzz'
 if i is times of 15: print 'fizzbuzz'
 else, print i
+
+## fizzbuzz with Korean or uppercase
+
+<!-- main: all strings with Korean -->
+<!-- conflict-test: all strings with uppercase -->
+
+<!-- 'fizzbuzz' replaced with Korean, 'buzz' converted to uppercase, leave 'fizz' to lowercase -->
+
+## fizzbuzz with list comprehension
+
+- for conflict test
+<!-- Main: range 1 to 300, all string should be lowercase -->
+<!-- fb-listcomp: fizzbuzz with list comprehension (range 1 to 100) -->
+print(['fizz' if i%3==0 else i for i in range(1,100+1)])
+
+<!-- fizzbuzz with list comprehension (range 1 to 300) -->
+
